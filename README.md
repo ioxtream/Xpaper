@@ -1,32 +1,13 @@
-# Mintlify Starter Kit
+# Xpaper - The Experience Paper
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Xpaper is the whitepaper created by IOXtream, an ExperienceTech company focused on immersive and interactive experiences.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## :rocket: About IOXtream
 
-### Development
+IOXtream specializes in creating smart, interactive environments that connect people with brands using cutting-edge technology.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## :ghost: IO Agents
 
-```
-npm i -g mintlify
-```
+IO Agents are intelligent automation agents that power interactive experiences, enabling real-time reactions to user actions and environmental triggers.
 
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+For more information, visit **[IOXtream](https://ioxtream.io/)**.

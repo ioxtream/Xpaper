@@ -1,91 +1,90 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "IOXtream",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#ff0068",
+		"light": "#ff0068",
+		"dark": "#ff0068",
+		"anchors": {
+			"from": "#ff0068",
+			"to": "#be11db"
+		},
+		"background": {
+			"dark": "#0f0f10",
+			"light": "#ffffff"
+		}
+	},
+	"theme": "prism",
+	"font": {
+		"headings": {
+			"family": "Poppins"
+		},
+		"body": {
+			"family": "Poppins"
+		}
+	},
+	"topbarLinks": [
+		{
+			"name": "Discord",
+			"url": "https://discord.gg/ioxtream"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "Website",
+		"url": "https://ioxtream.io/"
+	},
+	"navigation": [
+		{
+			"group": "Get Started",
+			"version": "English",
+			"pages": [
+				"introduction",
+				"mission-vision-and-values",
+				"why-cardano"
+			],
+			"icon": "rocket"
+		},
+		{
+			"group": "IO Agents",
+			"version": "English",
+			"pages": [
+				"io-agents/who-is-io",
+				"io-agents/what-are-io-agents",
+				"io-agents/io-distribution"
+			]
+		},
+		{
+			"group": "Utility",
+			"version": "English",
+			"pages": ["utility/ip-monetization", "utility/partnerships"]
+		},
+		{
+			"group": "Features",
+			"version": "English",
+			"pages": [
+				"features/live-entertainment-copilot",
+				"features/immersion-controller",
+				"features/simultaneous-translation",
+				"features/smart-clips",
+				"features/marketing-assistant"
+			]
+		}
+	],
+	"footerSocials": {
+		"x": "https://x.com/IOXtream",
+		"linkedin": "https://www.linkedin.com/company/ioxtream",
+		"discord": "https://discord.gg/ioxtream"
+	},
+	"versions": [
+		{
+			"name": "English",
+			"locale": "en",
+			"default": true
+		}
+	]
 }

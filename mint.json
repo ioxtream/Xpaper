@@ -50,6 +50,16 @@
 			"icon": "rocket"
 		},
 		{
+			"group": "Comece aqui",
+			"version": "Português",
+			"pages": [
+				"pt-BR/introducao",
+				"pt-BR/missao-visao-e-valores",
+				"pt-BR/por-que-cardano"
+			],
+			"icon": "rocket"
+		},
+		{
 			"group": "IO Agents",
 			"version": "English",
 			"pages": [
@@ -59,9 +69,26 @@
 			]
 		},
 		{
+			"group": "IO Agents",
+			"version": "Português",
+			"pages": [
+				"pt-BR/io-agents/quem-e-io",
+				"pt-BR/io-agents/o-que-sao-io-agents",
+				"pt-BR/io-agents/distribuicao-do-io"
+			]
+		},
+		{
 			"group": "Utility",
 			"version": "English",
 			"pages": ["utility/ip-monetization", "utility/partnerships"]
+		},
+		{
+			"group": "Utilidade",
+			"version": "Português",
+			"pages": [
+				"pt-BR/utilidade/monetizacao-ip",
+				"pt-BR/utilidade/parcerias"
+			]
 		},
 		{
 			"group": "Features",
@@ -72,6 +99,17 @@
 				"features/simultaneous-translation",
 				"features/smart-clips",
 				"features/marketing-assistant"
+			]
+		},
+		{
+			"group": "Funcionalidades",
+			"version": "Português",
+			"pages": [
+				"pt-BR/funcionalidades/copiloto-entretenimento-ao-vivo",
+				"pt-BR/funcionalidades/controlador-de-imersao",
+				"pt-BR/funcionalidades/traducao-simultanea",
+				"pt-BR/funcionalidades/clips-inteligentes",
+				"pt-BR/funcionalidades/assistente-de-marketing"
 			]
 		}
 	],
@@ -85,6 +123,10 @@
 			"name": "English",
 			"locale": "en",
 			"default": true
+		},
+		{
+			"name": "Português",
+			"locale": "pt-BR"
 		}
 	]
 }

@@ -1,0 +1,138 @@
+{
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "mint",
+	"name": "IOXtream",
+	"colors": {
+		"primary": "#ff0068",
+		"light": "#ff0068",
+		"dark": "#ff0068"
+	},
+	"favicon": "/favicon.svg",
+	"navigation": {
+		"languages": [
+			{
+				"language": "en",
+				"default": true,
+				"groups": [
+					{
+						"group": "Get Started",
+						"pages": [
+							"introduction",
+							"mission-vision-and-values",
+							"why-cardano"
+						],
+						"icon": "rocket"
+					},
+					{
+						"group": "IO Agents",
+						"pages": [
+							"io-agents/who-is-io",
+							"io-agents/what-are-io-agents",
+							"io-agents/io-distribution"
+						]
+					},
+					{
+						"group": "Utility",
+						"pages": [
+							"utility/ip-monetization",
+							"utility/partnerships"
+						]
+					},
+					{
+						"group": "Features",
+						"pages": [
+							"features/live-entertainment-copilot",
+							"features/immersion-controller",
+							"features/simultaneous-translation",
+							"features/smart-clips",
+							"features/marketing-assistant"
+						]
+					}
+				]
+			},
+			{
+				"language": "pt-BR",
+				"groups": [
+					{
+						"group": "Comece aqui",
+						"pages": [
+							"pt-BR/introducao",
+							"pt-BR/missao-visao-e-valores",
+							"pt-BR/por-que-cardano"
+						],
+						"icon": "rocket"
+					},
+					{
+						"group": "IO Agents",
+						"pages": [
+							"pt-BR/io-agents/quem-e-io",
+							"pt-BR/io-agents/o-que-sao-io-agents",
+							"pt-BR/io-agents/distribuicao-do-io"
+						]
+					},
+					{
+						"group": "Utilidade",
+						"pages": [
+							"pt-BR/utilidade/monetizacao-ip",
+							"pt-BR/utilidade/parcerias"
+						]
+					},
+					{
+						"group": "Funcionalidades",
+						"pages": [
+							"pt-BR/funcionalidades/copiloto-entretenimento-ao-vivo",
+							"pt-BR/funcionalidades/controlador-de-imersao",
+							"pt-BR/funcionalidades/traducao-simultanea",
+							"pt-BR/funcionalidades/clipes-inteligentes",
+							"pt-BR/funcionalidades/assistente-de-marketing"
+						]
+					}
+				]
+			}
+		]
+	},
+	"logo": {
+		"light": "/logo/light.svg",
+		"dark": "/logo/dark.svg"
+	},
+	"background": {
+		"color": {
+			"light": "#ffffff",
+			"dark": "#0f0f10"
+		},
+		"decoration": "windows"
+	},
+	"navbar": {
+		"links": [
+			{
+				"label": "Discord",
+				"href": "https://discord.gg/ioxtream"
+			}
+		],
+		"primary": {
+			"type": "button",
+			"label": "Website",
+			"href": "https://ioxtream.io/"
+		}
+	},
+	"footer": {
+		"socials": {
+			"x": "https://x.com/IOXtream",
+			"linkedin": "https://www.linkedin.com/company/ioxtream",
+			"discord": "https://discord.gg/ioxtream"
+		}
+	},
+	"fonts": {
+		"heading": {
+			"family": "Poppins"
+		},
+		"body": {
+			"family": "Poppins"
+		}
+	},
+	"integrations": {
+		"fathom": {
+			"siteId": "ETLYJYYR"
+		}
+	}
+}
